@@ -16,5 +16,7 @@ print 'Merging...'
 for pdfFile in pdfFiles:
     merger.append(PdfFileReader(file(pdfFile, 'rb')))
 
+fileName = raw_input("Insert output file name: ")
+    
 print 'Writing output...'
-merger.write("output.pdf")
+merger.write(fileName)
