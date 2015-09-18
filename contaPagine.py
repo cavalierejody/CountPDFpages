@@ -2,12 +2,6 @@
 from pyPdf import PdfFileReader
 import os
 
-"""""
-for file in os.listdir("./"):
-    if file.endswith(".pdf"):
-        print(file)
-"""""
-
 pdfDictionary = {}
 
 choice = 'unset'
