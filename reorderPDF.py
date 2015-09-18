@@ -20,9 +20,6 @@ print "n. pagine: " , nPages
 firstHalf = list(range(nPages/2))
 secondHalf = list(range(nPages-1,nPages/2-1,-1))
 
-#print "firstHalf: ", firstHalf
-#print "secondHalf", secondHalf
-
 pages = []
 
 for i in range(nPages/2):
